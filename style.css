@@ -1,0 +1,32 @@
+.flex-container{
+    border: 3px solid saddlebrown;
+    display: flex;
+    height: auto;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    
+}
+.flex-item{
+    border: 2px solid gold;
+    width: 300px;
+    height: 200px;
+    margin: 20px 15px;
+
+}
+.flex-item:nth-child(1){
+    background-color: cadetblue;
+    
+}
+.flex-item:nth-child(2){
+    background-color: red;
+}
+.flex-item:nth-child(3){
+    background-color: blueviolet;
+}
+.flex-item:nth-child(4){
+    background-color: blue;
+}
+.flex-item:nth-child(5){
+    background-color: blanchedalmond;
+}
